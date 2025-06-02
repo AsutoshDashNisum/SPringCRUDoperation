@@ -1,4 +1,4 @@
-package org.example.model;
+package org.AsutoSH.model;
 
 public class Book {
     private int id;

@@ -7,7 +7,7 @@
                               http://www.springframework.org/schema/context/spring-context.xsd
                                          http://www.springframework.org/schema/mvc
                                                      http://www.springframework.org/schema/mvc/spring-mvc.xsd">
-    <context:component-scan base-package="org.example"/>
+    <context:component-scan base-package="org.AsutoSH"/>
     <mvc:annotation-driven/>
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/views/"/>
@@ -22,10 +22,10 @@
     <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
         <property name="dataSource" ref="dataSource"/>
     </bean>
-    <bean id="bookDAO" class="org.example.dao.BookDAO">
+    <bean id="bookDAO" class="org.AsutoSH.dao.BookDAO">
         <property name="jdbcTemplate" ref="jdbcTemplate"/>
     </bean>
-    <bean id="helloController" class="org.example.controller.HelloController">
+    <bean id="helloController" class="org.AsutoSH.controller.HelloController">
         <property name="bookDAO" ref="bookDAO"/>
     </bean>
 </beans>

@@ -12,7 +12,7 @@
          http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
     <!-- Enable @Controller annotation -->
-    <context:component-scan base-package="org.example.controller" />
+    <context:component-scan base-package="org.AsutoSH.controller" />
 
     <!-- Enable Spring MVC annotations like @RequestMapping -->
     <mvc:annotation-driven />

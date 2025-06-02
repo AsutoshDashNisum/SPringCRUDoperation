@@ -1,6 +1,6 @@
-package org.example.dao;
+package org.AsutoSH.dao;
 
-import org.example.model.Book;
+import org.AsutoSH.model.Book;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;

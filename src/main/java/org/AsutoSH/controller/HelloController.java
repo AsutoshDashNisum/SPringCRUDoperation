@@ -1,8 +1,8 @@
-package org.example.controller;
+package org.AsutoSH.controller;
 
 
-import org.example.dao.BookDAO;
-import org.example.model.Book;
+import org.AsutoSH.dao.BookDAO;
+import org.AsutoSH.model.Book;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
